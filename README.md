@@ -1,19 +1,19 @@
-# 📝 Notes App
+# Notes App
 
 A clean, fast notes app built with **React + Vite + Tailwind CSS**. All data is stored in the browser's `localStorage` — no backend, no signup, no data leaving your device.
 
 ---
 
-## 🔗 Links
+## Links
 
 | | URL |
 |---|---|
-| **Live Demo** | `https://your-app.vercel.app` ← replace after deploying |
-| **GitHub Repo** | `https://github.com/your-username/notes-app` ← replace |
+| **Live Demo** | `https://your-app.vercel.app` — replace after deploying |
+| **GitHub Repo** | `https://github.com/MDSKSELIM/notes-app` |
 
 ---
 
-## ✨ Features
+## Features
 
 - **Create** notes with a title and body
 - **Edit** notes inline with autosave
@@ -23,12 +23,12 @@ A clean, fast notes app built with **React + Vite + Tailwind CSS**. All data is 
 - **Search** across titles and content in real time
 - **Word count** shown while editing
 - Keyboard shortcut: `Esc` to close editor
-- Fully responsive (mobile → desktop)
+- Fully responsive (mobile to desktop)
 - Data persists across page refreshes via `localStorage`
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer | Choice |
 |---|---|
@@ -40,66 +40,18 @@ A clean, fast notes app built with **React + Vite + Tailwind CSS**. All data is 
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
-# 1. Clone the repo
-git clone https://github.com/your-username/notes-app.git
+git clone https://github.com/MDSKSELIM/notes-app.git
 cd notes-app
-
-# 2. Install dependencies
 npm install
-
-# 3. Start dev server
 npm run dev
-
-# 4. Build for production
-npm run build
 ```
 
 ---
 
-## 📁 Project Structure
-
-```
-notes-app/
-├── src/
-│   ├── components/
-│   │   ├── NoteCard.jsx          # Card shown in the grid
-│   │   ├── NoteEditor.jsx        # Full-screen edit modal
-│   │   ├── SearchBar.jsx         # Search input
-│   │   ├── EmptyState.jsx        # Shown when no notes exist
-│   │   └── DeleteConfirmModal.jsx # Safety dialog before deleting
-│   ├── hooks/
-│   │   └── useNotes.js           # All CRUD logic + localStorage sync
-│   ├── utils/
-│   │   └── formatDate.js         # Human-friendly timestamps
-│   ├── App.jsx                   # Root component
-│   ├── main.jsx                  # React entry point
-│   └── index.css                 # Tailwind directives + base styles
-├── index.html
-├── tailwind.config.js
-├── vite.config.js
-└── package.json
-```
-
----
-
-## 🌐 Deploy to Vercel
-
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy (follow the prompts)
-vercel
-
-# Paste the URL into README above ↑
-```
-
----
-
-## 📝 Notes on Design Decisions
+## Notes on Design Decisions
 
 - **No Bootstrap** — styled entirely with Tailwind utility classes
 - **No external state library** — React `useState` + a custom hook is enough here
