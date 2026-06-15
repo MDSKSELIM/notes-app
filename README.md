@@ -8,7 +8,7 @@ A clean, fast notes app built with **React + Vite + Tailwind CSS**. All data is 
 
 | | URL |
 |---|---|
-| **Live Demo** | `https://your-app.vercel.app` — replace after deploying |
+| **Live Demo** | `https://notes-app-theta-red.vercel.app` |
 | **GitHub Repo** | `https://github.com/MDSKSELIM/notes-app` |
 
 ---
