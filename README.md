@@ -7,8 +7,8 @@ A clean, fast notes app built with **React + Vite + Tailwind CSS**. All data is 
 ## Links
 
 URL  
-**Live Demo** https://notes-app-six-swart-69.vercel.app/  
-**GitHub Repo** https://github.com/MDSKSELIM/notes-app
+- **Live Demo**  https://notes-app-six-swart-69.vercel.app/  
+- **GitHub Repo**  https://github.com/MDSKSELIM/notes-app
 
 ---
 
